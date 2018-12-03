@@ -1,0 +1,13 @@
+#!/bin/bash
+
+clear
+echo "Ready to roll."
+
+git status
+git add .
+git commit -m 'pre-run commit'
+git pull origin master
+git push origin master
+
+python clustersGen.py exp7_kmeans -top 5 -skip 0
+python clustersGen.py exp8_kmeans -top 5 -skip 0

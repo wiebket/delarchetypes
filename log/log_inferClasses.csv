@@ -1,0 +1,37 @@
+timestamp,process,year,status,message,parameter_settings,feature_specification
+2018-02-13 11:47:34,classInference,2009,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-13 11:47:34,classInference,2010,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-13 11:47:34,classInference,2011,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-13 11:47:34,classInference,2012,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-13 11:47:34,classInference,2013,0,No evidence data available for this year,exp1_BNve_1,exp1_spec
+2018-02-13 11:47:34,classInference,2014,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2000,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2001,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2002,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2003,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2004,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2005,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2006,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2007,0,No evidence data available for this year,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2008,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2009,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2010,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2011,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2012,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2013,0,No evidence data available for this year,exp1_BNve_1,exp1_spec
+2018-02-21 12:56:25,classInference,2014,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2000,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2001,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2002,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2003,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2004,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2005,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2006,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2007,0,No evidence data available for this year,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2008,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2009,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2010,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2011,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2012,1,Success!,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2013,0,No evidence data available for this year,exp1_BNve_1,exp1_spec
+2018-02-21 13:38:17,classInference,2014,1,Success!,exp1_BNve_1,exp1_spec

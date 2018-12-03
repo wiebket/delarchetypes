@@ -1,0 +1,7 @@
+#!/bin/bash
+
+clear
+echo "Ready to roll."
+
+python clustersEval.py exp8_kmeans_unit_norm 1
+

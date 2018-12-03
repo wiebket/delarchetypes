@@ -1,0 +1,36 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 19,20 -D 16 -R 18 -S 0.05 -V -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-stddev -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   6
+Resultsets: 13
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       2018/08/19 12:30 PM
+
+
+Dataset                   (1) functions.Logi | (2) bayes.Bayes (3) bayes.Bayes (4) bayes.Bayes (5) bayes.Bayes (6) bayes.Bayes (7) bayes.Bayes (8) b (9) bayes.Bayes (10) bayes.Baye (11) bayes.Baye (12) bayes.Baye (13) rules.Deci
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+exp5_kmeans_unit_norm_fea(100)   15.80(0.54) |   12.21(0.37) *   15.36(0.43)                     19.54(0.47) v   12.21(0.37) *   15.10(0.39)           12.21(0.37) *   15.63(0.40)                     16.37(0.45)                  
+exp5_kmeans_unit_norm_fea(100)   16.27(0.50) |   12.80(0.35) *   16.62(0.38)                     22.65(0.48) v   12.79(0.34) *   16.09(0.48)           12.81(0.38) *   16.34(0.40)                     16.91(0.41)                  
+exp5_kmeans_unit_norm_fea(100)   15.96(0.46) |   15.88(0.37)     23.34(0.43) v   26.84(0.44) v                   15.85(0.37)                           15.84(0.37)                     23.65(0.45) v                                
+exp7_kmeans_unit_norm_fea(100)   19.26(0.36) |   15.44(0.33) *   18.18(0.36) *   19.71(0.37)     20.43(0.39) v                                         15.44(0.33) *                   18.54(0.34) *                   22.45(0.39) v
+exp7_kmeans_unit_norm_fea(100)   19.49(0.35) |   15.56(0.34) *   18.45(0.39) *   20.26(0.44) v   21.38(0.43) v                                         15.61(0.36) *                   18.42(0.37) *                   25.38(0.41) v
+exp7_kmeans_unit_norm_fea(100)   19.24(0.39) |   16.84(0.40) *   20.50(0.44) v   22.27(0.41) v   22.63(0.37) v                                         16.73(0.39) *                   18.97(0.42)                                  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                     (v/ /*) |         (0/1/5)         (2/2/2)         (3/1/0)         (5/0/0)         (0/1/2)         (0/2/0 (0/0/0)        (0/1/5)         (0/2/0)         (1/1/2)         (0/2/0)         (2/0/0)
+
+
+Key:
+(1) functions.Logistic '-C -R 1.0E-8 -M 10'
+(2) bayes.BayesNet '-D -Q bayes.net.search.local.K2 -- -P 1 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(3) bayes.BayesNet '-D -Q bayes.net.search.local.K2 -- -P 2 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(4) bayes.BayesNet '-D -Q bayes.net.search.local.K2 -- -P 3 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(5) bayes.BayesNet '-D -Q bayes.net.search.local.K2 -- -P 4 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(6) bayes.BayesNet '-D -Q bayes.net.search.local.RepeatedHillClimber -- -U 10 -A 1 -P 1 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(7) bayes.BayesNet '-D -Q bayes.net.search.local.RepeatedHillClimber -- -U 10 -A 1 -P 2 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(8) bayes.BayesNet '-D -Q bayes.net.search.local.RepeatedHillClimber -- -U 10 -A 1 -P 3 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(9) bayes.BayesNet '-D -Q bayes.net.search.local.TabuSearch -- -L 5 -U 10 -P 1 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(10) bayes.BayesNet '-D -Q bayes.net.search.local.TabuSearch -- -L 5 -U 10 -P 2 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(11) bayes.BayesNet '-D -Q bayes.net.search.local.TabuSearch -- -L 5 -U 10 -P 3 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(12) bayes.BayesNet '-D -Q bayes.net.search.local.TabuSearch -- -L 5 -U 10 -P 4 -S BAYES -E bayes.net.estimate.SimpleEstimator -- -A 0.5'
+(13) rules.DecisionTable '-X 1 -S  BestFirst -D 1 -N 5'
+

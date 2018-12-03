@@ -1,0 +1,6 @@
+'algorithm', 'start', 'end', 'drop_0', 'preprocessing', 'range_n_dim', 'transform', 'range_n_clusters'
+'kmeans', 1994, 2014, False, None, None, None, range(5, 136, 3)
+'kmeans', 1994, 2014, False, 'unit_norm', None, None, range(5, 136, 3)
+'kmeans', 1994, 2014, False, 'zero-one', None, None, range(5, 136, 3)
+'kmeans', 1994, 2014, False, 'demin', None, None, range(5, 136, 3)
+'kmeans', 1994, 2014, False, 'sa_norm', None, None, range(5, 136, 3)

@@ -1,0 +1,142 @@
+timestamp,process,year,status,message,feature_specification,output_file
+2018-02-13 11:46:11,featureExtraction,2009,1,Success!,exp1_spec,exp1_evidence_2009.txt
+2018-02-13 11:46:11,featureExtraction,2010,1,Success!,exp1_spec,exp1_evidence_2010.txt
+2018-02-13 11:46:11,featureExtraction,2011,1,Success!,exp1_spec,exp1_evidence_2011.txt
+2018-02-13 11:46:11,featureExtraction,2012,1,Success!,exp1_spec,exp1_evidence_2012.txt
+2018-02-13 11:46:11,featureExtraction,2013,0,No survey data collected for this year,exp1_spec,exp1_evidence_2013.txt
+2018-02-13 11:46:11,featureExtraction,2014,1,Success!,exp1_spec,exp1_evidence_2014.txt
+2018-02-21 12:20:03,featureExtraction,2000,1,Success!,exp1_spec,exp1_evidence_2000.txt
+2018-02-21 12:20:03,featureExtraction,2001,1,Success!,exp1_spec,exp1_evidence_2001.txt
+2018-02-21 12:20:03,featureExtraction,2002,1,Success!,exp1_spec,exp1_evidence_2002.txt
+2018-02-21 12:20:03,featureExtraction,2003,1,Success!,exp1_spec,exp1_evidence_2003.txt
+2018-02-21 12:20:03,featureExtraction,2004,1,Success!,exp1_spec,exp1_evidence_2004.txt
+2018-02-21 12:20:03,featureExtraction,2005,1,Success!,exp1_spec,exp1_evidence_2005.txt
+2018-02-21 12:20:03,featureExtraction,2006,1,Success!,exp1_spec,exp1_evidence_2006.txt
+2018-02-21 12:20:03,featureExtraction,2007,0,No survey data collected for this year,exp1_spec,exp1_evidence_2007.txt
+2018-02-21 12:20:03,featureExtraction,2008,1,Success!,exp1_spec,exp1_evidence_2008.txt
+2018-02-21 12:20:03,featureExtraction,2009,1,Success!,exp1_spec,exp1_evidence_2009.txt
+2018-02-21 12:20:03,featureExtraction,2010,1,Success!,exp1_spec,exp1_evidence_2010.txt
+2018-02-21 12:20:03,featureExtraction,2011,1,Success!,exp1_spec,exp1_evidence_2011.txt
+2018-02-21 12:20:03,featureExtraction,2012,1,Success!,exp1_spec,exp1_evidence_2012.txt
+2018-02-21 12:20:03,featureExtraction,2013,0,No survey data collected for this year,exp1_spec,exp1_evidence_2013.txt
+2018-02-21 12:20:03,featureExtraction,2014,1,Success!,exp1_spec,exp1_evidence_2014.txt
+2018-02-21 12:22:14,featureExtraction,2000,1,Success!,exp1_spec,exp1_evidence_2000.txt
+2018-02-21 12:22:14,featureExtraction,2001,1,Success!,exp1_spec,exp1_evidence_2001.txt
+2018-02-21 12:22:14,featureExtraction,2002,1,Success!,exp1_spec,exp1_evidence_2002.txt
+2018-02-21 12:22:14,featureExtraction,2003,1,Success!,exp1_spec,exp1_evidence_2003.txt
+2018-02-21 12:22:14,featureExtraction,2004,1,Success!,exp1_spec,exp1_evidence_2004.txt
+2018-02-21 12:22:14,featureExtraction,2005,1,Success!,exp1_spec,exp1_evidence_2005.txt
+2018-02-21 12:22:14,featureExtraction,2006,1,Success!,exp1_spec,exp1_evidence_2006.txt
+2018-02-21 12:22:14,featureExtraction,2007,0,No survey data collected for this year,exp1_spec,exp1_evidence_2007.txt
+2018-02-21 12:22:14,featureExtraction,2008,1,Success!,exp1_spec,exp1_evidence_2008.txt
+2018-02-21 12:22:14,featureExtraction,2009,1,Success!,exp1_spec,exp1_evidence_2009.txt
+2018-02-21 12:22:14,featureExtraction,2010,1,Success!,exp1_spec,exp1_evidence_2010.txt
+2018-02-21 12:22:14,featureExtraction,2011,1,Success!,exp1_spec,exp1_evidence_2011.txt
+2018-02-21 12:22:14,featureExtraction,2012,1,Success!,exp1_spec,exp1_evidence_2012.txt
+2018-02-21 12:22:14,featureExtraction,2013,0,No survey data collected for this year,exp1_spec,exp1_evidence_2013.txt
+2018-02-21 12:22:14,featureExtraction,2014,1,Success!,exp1_spec,exp1_evidence_2014.txt
+2018-02-21 13:37:43,featureExtraction,2000,1,Success!,exp1_spec,exp1_evidence_2000.txt
+2018-02-21 13:37:43,featureExtraction,2001,1,Success!,exp1_spec,exp1_evidence_2001.txt
+2018-02-21 13:37:43,featureExtraction,2002,1,Success!,exp1_spec,exp1_evidence_2002.txt
+2018-02-21 13:37:43,featureExtraction,2003,1,Success!,exp1_spec,exp1_evidence_2003.txt
+2018-02-21 13:37:43,featureExtraction,2004,1,Success!,exp1_spec,exp1_evidence_2004.txt
+2018-02-21 13:37:43,featureExtraction,2005,1,Success!,exp1_spec,exp1_evidence_2005.txt
+2018-02-21 13:37:43,featureExtraction,2006,1,Success!,exp1_spec,exp1_evidence_2006.txt
+2018-02-21 13:37:43,featureExtraction,2007,0,No survey data collected for this year,exp1_spec,exp1_evidence_2007.txt
+2018-02-21 13:37:43,featureExtraction,2008,1,Success!,exp1_spec,exp1_evidence_2008.txt
+2018-02-21 13:37:43,featureExtraction,2009,1,Success!,exp1_spec,exp1_evidence_2009.txt
+2018-02-21 13:37:43,featureExtraction,2010,1,Success!,exp1_spec,exp1_evidence_2010.txt
+2018-02-21 13:37:43,featureExtraction,2011,1,Success!,exp1_spec,exp1_evidence_2011.txt
+2018-02-21 13:37:43,featureExtraction,2012,1,Success!,exp1_spec,exp1_evidence_2012.txt
+2018-02-21 13:37:43,featureExtraction,2013,0,No survey data collected for this year,exp1_spec,exp1_evidence_2013.txt
+2018-02-21 13:37:43,featureExtraction,2014,1,Success!,exp1_spec,exp1_evidence_2014.txt
+2018-05-08 22:23:07,featureExtraction,1994,1,Success!,exp1_spec,exp1_evidence_1994.txt
+2018-05-08 22:23:07,featureExtraction,1995,1,Success!,exp1_spec,exp1_evidence_1995.txt
+2018-05-08 22:23:07,featureExtraction,1996,1,Success!,exp1_spec,exp1_evidence_1996.txt
+2018-05-08 22:23:07,featureExtraction,1997,1,Success!,exp1_spec,exp1_evidence_1997.txt
+2018-05-08 22:23:07,featureExtraction,1998,1,Success!,exp1_spec,exp1_evidence_1998.txt
+2018-05-08 22:23:07,featureExtraction,1999,1,Success!,exp1_spec,exp1_evidence_1999.txt
+2018-05-08 22:23:07,featureExtraction,2000,1,Success!,exp1_spec,exp1_evidence_2000.txt
+2018-05-08 22:23:07,featureExtraction,2001,0,The input year is out of range of the specification.,exp1_spec,exp1_evidence_2001.txt
+2018-05-08 22:23:07,featureExtraction,2002,0,The input year is out of range of the specification.,exp1_spec,exp1_evidence_2002.txt
+2018-05-08 22:23:07,featureExtraction,2003,1,Success!,exp1_spec,exp1_evidence_2003.txt
+2018-05-08 22:23:07,featureExtraction,2004,1,Success!,exp1_spec,exp1_evidence_2004.txt
+2018-05-08 22:23:07,featureExtraction,2005,1,Success!,exp1_spec,exp1_evidence_2005.txt
+2018-05-08 22:23:07,featureExtraction,2006,1,Success!,exp1_spec,exp1_evidence_2006.txt
+2018-05-08 22:23:07,featureExtraction,2007,0,The input year is out of range of the specification.,exp1_spec,exp1_evidence_2007.txt
+2018-05-08 22:23:07,featureExtraction,2008,1,Success!,exp1_spec,exp1_evidence_2008.txt
+2018-05-08 22:23:07,featureExtraction,2009,1,Success!,exp1_spec,exp1_evidence_2009.txt
+2018-05-08 22:23:07,featureExtraction,2010,1,Success!,exp1_spec,exp1_evidence_2010.txt
+2018-05-08 22:23:07,featureExtraction,2011,1,Success!,exp1_spec,exp1_evidence_2011.txt
+2018-05-08 22:23:07,featureExtraction,2012,1,Success!,exp1_spec,exp1_evidence_2012.txt
+2018-05-08 22:23:07,featureExtraction,2013,0,The input year is out of range of the specification.,exp1_spec,exp1_evidence_2013.txt
+2018-05-08 22:23:07,featureExtraction,2014,0,The input year is out of range of the specification.,exp1_spec,exp1_evidence_2014.txt
+2018-05-08 22:42:33,featureExtraction,2001,1,Success!,exp1_spec,exp1_evidence_2001.txt
+2018-05-08 22:42:33,featureExtraction,2002,1,Success!,exp1_spec,exp1_evidence_2002.txt
+2018-05-08 22:42:33,featureExtraction,2003,1,Success!,exp1_spec,exp1_evidence_2003.txt
+2018-05-08 22:44:53,featureExtraction,1994,1,Success!,exp1_spec,exp1_evidence_1994.txt
+2018-05-08 22:44:53,featureExtraction,1995,1,Success!,exp1_spec,exp1_evidence_1995.txt
+2018-05-08 22:44:53,featureExtraction,1996,1,Success!,exp1_spec,exp1_evidence_1996.txt
+2018-05-08 22:44:53,featureExtraction,1997,1,Success!,exp1_spec,exp1_evidence_1997.txt
+2018-05-08 22:44:53,featureExtraction,1998,1,Success!,exp1_spec,exp1_evidence_1998.txt
+2018-05-08 22:44:53,featureExtraction,1999,1,Success!,exp1_spec,exp1_evidence_1999.txt
+2018-05-08 22:44:53,featureExtraction,2000,1,Success!,exp1_spec,exp1_evidence_2000.txt
+2018-05-08 22:44:53,featureExtraction,2001,1,Success!,exp1_spec,exp1_evidence_2001.txt
+2018-05-08 22:44:53,featureExtraction,2002,1,Success!,exp1_spec,exp1_evidence_2002.txt
+2018-05-08 22:44:53,featureExtraction,2003,1,Success!,exp1_spec,exp1_evidence_2003.txt
+2018-05-08 22:44:53,featureExtraction,2004,1,Success!,exp1_spec,exp1_evidence_2004.txt
+2018-05-08 22:44:53,featureExtraction,2005,1,Success!,exp1_spec,exp1_evidence_2005.txt
+2018-05-08 22:44:53,featureExtraction,2006,1,Success!,exp1_spec,exp1_evidence_2006.txt
+2018-05-08 22:44:53,featureExtraction,2007,0,The input year is out of range of the specification.,exp1_spec,exp1_evidence_2007.txt
+2018-05-08 22:44:53,featureExtraction,2008,1,Success!,exp1_spec,exp1_evidence_2008.txt
+2018-05-08 22:44:53,featureExtraction,2009,1,Success!,exp1_spec,exp1_evidence_2009.txt
+2018-05-08 22:44:53,featureExtraction,2010,1,Success!,exp1_spec,exp1_evidence_2010.txt
+2018-05-08 22:44:53,featureExtraction,2011,1,Success!,exp1_spec,exp1_evidence_2011.txt
+2018-05-08 22:44:53,featureExtraction,2012,1,Success!,exp1_spec,exp1_evidence_2012.txt
+2018-05-08 22:44:53,featureExtraction,2013,0,The input year is out of range of the specification.,exp1_spec,exp1_evidence_2013.txt
+2018-05-08 22:44:53,featureExtraction,2014,0,The input year is out of range of the specification.,exp1_spec,exp1_evidence_2014.txt
+2018-05-12 21:57:14,featureExtraction,1994,2014,1,Success!,['base1'],base1_19942014.txt
+2018-05-12 22:01:46,featureExtraction,1994,2014,1,Success!,"['base1', 'appliance1']",base1_appliance1_19942014.txt
+2018-05-12 22:03:39,featureExtraction,2000,2014,1,Success!,"['base1', 'appliance1', 'behaviour1']",base1_appliance1_behaviour1_20002014.txt
+2018-05-12 22:06:30,featureExtraction,1994,2014,1,Success!,['appliance1'],appliance1_1994+20.txt
+2018-05-12 23:57:40,featureExtraction,1994,2014,1,Success!,['base1'],base1_1994+20.txt
+2018-05-12 23:59:43,featureExtraction,1994,2014,1,Success!,"['base1', 'appliance1']",base1_appliance1_1994+20.txt
+2018-05-13 00:01:53,featureExtraction,2000,2014,1,Success!,"['base1', 'appliance1', 'behaviour1']",base1_appliance1_behaviour1_2000+14.txt
+2018-07-19 09:26:23,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.txt
+2018-07-19 09:43:30,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.txt
+2018-07-19 09:48:20,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.csv
+2018-07-19 17:52:11,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.json
+2018-07-19 18:05:07,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.json
+2018-07-19 18:06:04,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.json
+2018-07-19 18:07:44,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.txt
+2018-07-19 18:15:09,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.txt
+2018-07-19 18:16:41,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.txt
+2018-07-19 18:19:02,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.csv
+2018-07-19 18:24:47,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.txt
+2018-07-19 18:33:35,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.csv
+2018-07-20 21:13:00,featureExtraction,1994,1996,1,Success!,['features1'],features1_1994+2.csv
+2018-07-22 10:19:02,featureExtraction,1994,2014,1,Success!,['feature1'],feature1_1994+20.txt
+2018-07-22 10:52:05,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.txt
+2018-07-22 12:05:48,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.csv
+2018-07-22 21:11:55,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.csv
+2018-07-22 21:15:41,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.txt
+2018-07-23 14:26:28,featureExtraction,1994,2014,1,Success!,['grant'],grant_1994+20.feather
+2018-07-23 15:00:18,featureExtraction,1994,2014,1,Success!,"['grant', 'appliances', 'app_broken']",grant_appliances_app_broken_1994+20.feather
+2018-07-23 15:05:30,featureExtraction,1994,2014,1,Success!,"['grant', 'appliance1', 'app_broken']",grant_appliance1_app_broken_1994+20.feather
+2018-07-23 15:23:50,featureExtraction,1994,2014,1,Success!,"['grant', 'appliance1', 'app_broken']",grant_appliance1_app_broken_1994+20.feather
+2018-08-06 11:40:31,featureExtraction,1994,2014,1,Success!,['features2'],features2_1994+20.feather
+2018-08-12 12:28:23,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.feather
+2018-08-12 21:27:32,featureExtraction,1994,2014,1,Success!,['features2'],features2_1994+20.feather
+2018-08-14 18:09:15,featureExtraction,1994,2014,1,Success!,['features3'],features3_1994+20.feather
+2018-08-22 17:52:33,featureExtraction,1994,2014,1,Success!,['features4'],features4_1994+20.feather
+2018-08-23 15:57:00,featureExtraction,1994,2014,1,Success!,['features4'],features4_1994+20.feather
+2018-08-23 16:03:58,featureExtraction,1994,2014,1,Success!,['features4'],features4_1994+20.feather
+2018-08-23 17:05:27,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.feather
+2018-08-23 17:06:45,featureExtraction,1994,2014,1,Success!,['features2'],features2_1994+20.feather
+2018-08-23 17:08:03,featureExtraction,1994,2014,1,Success!,['features3'],features3_1994+20.feather
+2018-08-23 17:09:27,featureExtraction,1994,2014,1,Success!,['features4'],features4_1994+20.feather
+2018-08-24 12:45:55,featureExtraction,1994,2014,1,Success!,['features4'],features4_1994+20.feather
+2018-08-24 12:48:03,featureExtraction,1994,2014,1,Success!,['features1'],features1_1994+20.feather
+2018-08-24 12:51:37,featureExtraction,1994,2014,1,Success!,['features2'],features2_1994+20.feather
+2018-08-24 12:54:58,featureExtraction,1994,2014,1,Success!,['features3'],features3_1994+20.feather
+2018-08-27 12:43:38,featureExtraction,2000,2005,0,Cannot save to specified file type,['features4_00'],features4_00_2000+5..doc

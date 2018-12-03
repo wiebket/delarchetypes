@@ -1,0 +1,33 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 16 -D 19,20 -R 18 -S 0.05 -V -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-stddev -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   10
+Resultsets: 6
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       2018/08/30 10:29 PM
+
+
+Dataset                   (4) exp7_kmeans_un | (1) exp5_kmeans (2) exp5_kmeans (3) exp5_kmeans (5) exp7_kmeans (6) exp7_kmeans
+------------------------------------------------------------------------------------------------------------------------------
+functions.Logistic '-C -R(100)   18.63(0.42) |   15.00(0.43) *   14.67(0.53) *   15.11(0.49) *   19.05(0.42)     19.43(0.42)  
+bayes.BayesNet '-D -Q wek(100)   15.50(0.35) |   12.15(0.34) *   17.74(0.43) v   11.79(0.44) *   17.93(0.47) v   16.05(0.39)  
+bayes.BayesNet '-D -Q wek(100)   18.30(0.43) |   15.09(0.36) *   19.52(0.74)     15.58(0.48) *   17.29(0.38) *   18.97(0.41)  
+bayes.BayesNet '-D -Q wek(100)   19.25(0.40) |   16.42(0.49) *                   16.84(0.50) *                   19.86(0.44)  
+bayes.BayesNet '-D -Q wek(100)   17.90(0.42) |   17.22(0.45)                     16.16(0.55) *                   19.17(0.44) v
+bayes.BayesNet '-D -Q wek(100)   15.51(0.37) |   12.16(0.41) *   17.96(0.51) v   11.82(0.40) *   18.09(0.43) v   16.04(0.39)  
+bayes.BayesNet '-D -Q wek(100)   17.98(0.47) |   14.88(0.50) *   26.38(2.02) v   15.13(0.57) *   22.33(1.27) v   18.57(0.52)  
+bayes.BayesNet '-D -Q wek(100)   19.05(0.51) |   16.29(0.58) *                   17.97(0.79)                     20.02(0.54)  
+bayes.BayesNet '-D -Q wek(100)   19.87(0.43) |   17.63(0.65) *                   20.57(1.03)                     20.95(0.63)  
+rules.DecisionTable '-X 1(100)   21.39(0.43) |   21.09(0.76)     29.02(0.54) v   27.95(0.61) v   25.63(0.50) v   25.21(0.58) v
+------------------------------------------------------------------------------------------------------------------------------
+                                     (v/ /*) |         (0/2/8)         (4/1/1)         (1/2/7)         (4/1/1)         (2/8/0)
+
+
+Key:
+(1) exp5_kmeans_unit_norm_features1BEST1
+(2) exp5_kmeans_unit_norm_features3BEST1
+(3) exp5_kmeans_unit_norm_features4BEST1
+(4) exp7_kmeans_unit_norm_features1BEST1
+(5) exp7_kmeans_unit_norm_features3BEST1
+(6) exp7_kmeans_unit_norm_features4BEST1
+

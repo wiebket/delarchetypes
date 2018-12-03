@@ -1,0 +1,48 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 16 -D 19,20 -R 18 -S 0.05 -V -result-matrix "weka.experiment.ResultMatrixLatex -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 0 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 0 -show-stddev -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   10
+Resultsets: 6
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       2018/08/30 10:32 PM
+
+
+\begin{table}[thb]
+\caption{\label{labelname}Table Caption}
+\scriptsize
+{\centering \begin{tabular}{lr@{\hspace{0cm}}c@{\hspace{0cm}}rr@{\hspace{0cm}}c@{\hspace{0cm}}r@{\hspace{0.1cm}}cr@{\hspace{0cm}}c@{\hspace{0cm}}r@{\hspace{0.1cm}}cr@{\hspace{0cm}}c@{\hspace{0cm}}r@{\hspace{0.1cm}}cr@{\hspace{0cm}}c@{\hspace{0cm}}r@{\hspace{0.1cm}}cr@{\hspace{0cm}}c@{\hspace{0cm}}r@{\hspace{0.1cm}}c}
+\\
+\hline
+Dataset & \multicolumn{3}{c}{(4)}& \multicolumn{4}{c}{(1)} & \multicolumn{4}{c}{(2)} & \multicolumn{4}{c}{(3)} & \multicolumn{4}{c}{(5)} & \multicolumn{4}{c}{(6)} \\
+\hline
+functions.Logistic '-C -R 0.005 -M 10' & 18.63 & $\pm$ & 0.42 & 15.00 & $\pm$ & 0.43 & $\bullet$ & 14.67 & $\pm$ & 0.53 & $\bullet$ & 15.11 & $\pm$ & 0.49 & $\bullet$ & 19.05 & $\pm$ & 0.42 &           & 19.43 & $\pm$ & 0.42 &        \\
+bayes.BayesNet '-D -Q weka.classifiers.bayes.net.search.local.HillClimber -- -R -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5' & 15.50 & $\pm$ & 0.35 & 12.15 & $\pm$ & 0.34 & $\bullet$ & 17.74 & $\pm$ & 0.43 &   $\circ$ & 11.79 & $\pm$ & 0.44 & $\bullet$ & 17.93 & $\pm$ & 0.47 &   $\circ$ & 16.05 & $\pm$ & 0.39 &        \\
+bayes.BayesNet '-D -Q weka.classifiers.bayes.net.search.local.HillClimber -- -R -P 2 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5' & 18.30 & $\pm$ & 0.43 & 15.09 & $\pm$ & 0.36 & $\bullet$ & 19.52 & $\pm$ & 0.74 &           & 15.58 & $\pm$ & 0.48 & $\bullet$ & 17.29 & $\pm$ & 0.38 & $\bullet$ & 18.97 & $\pm$ & 0.41 &        \\
+bayes.BayesNet '-D -Q weka.classifiers.bayes.net.search.local.HillClimber -- -R -P 3 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5' & 19.25 & $\pm$ & 0.40 & 16.42 & $\pm$ & 0.49 & $\bullet$ &       &       &      &           & 16.84 & $\pm$ & 0.50 & $\bullet$ &       &       &      &           & 19.86 & $\pm$ & 0.44 &        \\
+bayes.BayesNet '-D -Q weka.classifiers.bayes.net.search.local.HillClimber -- -R -P 4 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5' & 17.90 & $\pm$ & 0.42 & 17.22 & $\pm$ & 0.45 &           &       &       &      &           & 16.16 & $\pm$ & 0.55 & $\bullet$ &       &       &      &           & 19.17 & $\pm$ & 0.44 & $\circ$\\
+bayes.BayesNet '-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -R -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5' & 15.51 & $\pm$ & 0.37 & 12.16 & $\pm$ & 0.41 & $\bullet$ & 17.96 & $\pm$ & 0.51 &   $\circ$ & 11.82 & $\pm$ & 0.40 & $\bullet$ & 18.09 & $\pm$ & 0.43 &   $\circ$ & 16.04 & $\pm$ & 0.39 &        \\
+bayes.BayesNet '-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 2 -R -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5' & 17.98 & $\pm$ & 0.47 & 14.88 & $\pm$ & 0.50 & $\bullet$ & 26.38 & $\pm$ & 2.02 &   $\circ$ & 15.13 & $\pm$ & 0.57 & $\bullet$ & 22.33 & $\pm$ & 1.27 &   $\circ$ & 18.57 & $\pm$ & 0.52 &        \\
+bayes.BayesNet '-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 3 -R -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5' & 19.05 & $\pm$ & 0.51 & 16.29 & $\pm$ & 0.58 & $\bullet$ &       &       &      &           & 17.97 & $\pm$ & 0.79 &           &       &       &      &           & 20.02 & $\pm$ & 0.54 &        \\
+bayes.BayesNet '-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 4 -R -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5' & 19.87 & $\pm$ & 0.43 & 17.63 & $\pm$ & 0.65 & $\bullet$ &       &       &      &           & 20.57 & $\pm$ & 1.03 &           &       &       &      &           & 20.95 & $\pm$ & 0.63 &        \\
+rules.DecisionTable '-X 1 -S weka.attributeSelection.BestFirst -D 1 -N 5' & 21.39 & $\pm$ & 0.43 & 21.09 & $\pm$ & 0.76 &           & 29.02 & $\pm$ & 0.54 &   $\circ$ & 27.95 & $\pm$ & 0.61 &   $\circ$ & 25.63 & $\pm$ & 0.50 &   $\circ$ & 25.21 & $\pm$ & 0.58 & $\circ$\\
+\hline
+\multicolumn{18}{c}{$\circ$, $\bullet$ statistically significant improvement or degradation}\\
+\end{tabular} \scriptsize \par}
+\end{table}
+
+
+\begin{table}[thb]
+\caption{\label{labelname}Table Caption (Key)}
+\scriptsize
+{\centering
+\begin{tabular}{cl}\\
+(1) & exp5-kmeans-unit-norm-features1BEST1 \\
+(2) & exp5-kmeans-unit-norm-features3BEST1 \\
+(3) & exp5-kmeans-unit-norm-features4BEST1 \\
+(4) & exp7-kmeans-unit-norm-features1BEST1 \\
+(5) & exp7-kmeans-unit-norm-features3BEST1 \\
+(6) & exp7-kmeans-unit-norm-features4BEST1 \\
+\end{tabular}
+}
+\end{table}
+

@@ -1,0 +1,5 @@
+timestamp,submodel_type,year,experiment,algorithm,run,status,message
+2018-02-13 11:50:27,hourly_profiles,2010,exp1,BNve,1,1,Success!
+2018-02-13 11:54:03,hourly_profiles,2011,exp1,BNve,1,1,Success!
+2018-02-13 12:16:11,hourly_profiles,2012,exp1,BNve,1,1,Success!
+2018-02-21 16:43:43,hourly_profiles,2000,exp1,BNve,1,1,Success!

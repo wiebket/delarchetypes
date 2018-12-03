@@ -1,0 +1,18 @@
+#!/bin/bash
+
+clear
+echo "Ready to roll."
+
+#python prepClassify.py exp8_kmeans_unit_norm features1 
+#python prepClassify.py exp8_kmeans_unit_norm features2 --skip_cat adults children part_time pension unemployed
+#python prepClassify.py exp8_kmeans_unit_norm features3 --skip_cat adults children part_time pension unemployed cb_size floor_area monthly_income years_electrified
+python prepClassify.py exp8_kmeans_unit_norm features4
+
+#python prepClassify.py exp7_kmeans_unit_norm features2 --filter_features "{'season':'winter','daytype':'Friday'}" --skip_cat adults children part_time pension unemployed
+#python prepClassify.py exp7_kmeans_unit_norm features2 --filter_features "{'season':'winter','daytype':'Saturday'}" --skip_cat adults children part_time pension unemployed
+#python prepClassify.py exp7_kmeans_unit_norm features2 --filter_features "{'season':'winter','daytype':'Sunday'}" --skip_cat adults children part_time pension unemployed
+
+#python prepClassify.py exp7_kmeans_unit_norm features2 --filter_features "{'season':'summer','daytype':'weekday'}" --skip_cat adults children part_time pension unemployed
+#python prepClassify.py exp7_kmeans_unit_norm features2 --filter_features "{'season':'summer','daytype':'Friday'}" --skip_cat adults children part_time pension unemployed
+#python prepClassify.py exp7_kmeans_unit_norm features2 --filter_features "{'season':'summer','daytype':'Saturday'}" --skip_cat adults children part_time pension unemployed
+#python prepClassify.py exp7_kmeans_unit_norm features2 --filter_features "{'season':'summer','daytype':'Sunday'}" --skip_cat adults children part_time pension unemployed

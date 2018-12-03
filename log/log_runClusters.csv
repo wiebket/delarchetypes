@@ -1,0 +1,63 @@
+timestamp,experiment,runtime,algorithm,start,end,preprocessing,range_n_dim,transform,range_n_clusters,,
+2018-07-04 00:48,exp2_kmeans,16.67567046,kmeans,1994,2014,,,,"range(5, 136, 3)",,
+2018-07-04 01:23,exp2_norm_kmeans,34.10863423,kmeans,1994,2014,normalize,,,"range(5, 136, 3)",,
+2018-07-04 18:54,exp2_som,47.68831095,som,1994,2014,,"range(5, 30, 2)",,,,
+2018-07-04 19:41,exp2_norm_som,47.77124903,som,1994,2014,normalize,"range(5, 30, 2)",,,,
+2018-07-05 00:49,exp2_norm_som+kmeans,307.2650912,som,1994,2014,normalize,"range(30, 90, 10)",kmeans,"range(5, 136, 3)",,
+2018-07-05 05:58,exp2_som+kmeans,309.0602272,som,1994,2014,,"range(30, 90, 10)",kmeans,"range(5, 136, 3)",,
+2018-07-22 02:11:13,exp3_kmeans,16.2590466300646,kmeans,1994,2014,True,,False,,,"range(5, 136, 3)"
+2018-07-22 02:41:55,exp3_kmeans,30.7043395201365,kmeans,1994,2014,True,unit_norm,False,,,"range(5, 136, 3)"
+2018-07-22 03:33:20,exp3_kmeans,51.4156074762344,kmeans,1994,2014,True,zero-one,False,,,"range(5, 136, 3)"
+2018-07-22 04:31:44,exp3_kmeans,58.4032904783885,kmeans,1994,2014,True,demin,False,,,"range(5, 136, 3)"
+2018-07-22 05:06:45,exp3_kmeans,35.0135193268458,kmeans,1994,2014,True,sa_norm,False,,,"range(5, 136, 3)"
+2018-07-22 05:54:29,exp3_som,47.6920278271039,som,1994,2014,True,,False,"range(5, 30, 2)",,
+2018-07-22 06:41:29,exp3_som,46.9909543991089,som,1994,2014,True,unit_norm,False,"range(5, 30, 2)",,
+2018-07-22 07:28:45,exp3_som,47.2624532580376,som,1994,2014,True,zero-one,False,"range(5, 30, 2)",,
+2018-07-22 08:16:15,exp3_som,47.5071005860965,som,1994,2014,True,demin,False,"range(5, 30, 2)",,
+2018-07-22 13:20:32,exp3_som+kmeans,304.234201204777,som,1994,2014,True,,False,"range(30, 90, 10)",kmeans,"range(5, 136, 3)"
+2018-07-22 18:23:41,exp3_som+kmeans,303.145255581538,som,1994,2014,True,unit_norm,False,"range(30, 90, 10)",kmeans,"range(5, 136, 3)"
+2018-07-22 23:27:48,exp3_som+kmeans,304.117694536845,som,1994,2014,True,zero-one,False,"range(30, 90, 10)",kmeans,"range(5, 136, 3)"
+2018-07-23 04:31:44,exp3_som+kmeans,303.93906766971,som,1994,2014,True,demin,False,"range(30, 90, 10)",kmeans,"range(5, 136, 3)"
+2018-07-23 04:39:41,exp4_kmeans,7.87156689564387,kmeans,1994,2014,False,,True,,,"range(2, 10)"
+2018-07-23 04:47:50,exp4_kmeans,8.15905000368754,kmeans,1994,2014,False,unit_norm,True,,,"range(2, 10)"
+2018-07-23 04:56:11,exp4_kmeans,8.34342721700668,kmeans,1994,2014,False,zero-one,True,,,"range(2, 10)"
+2018-07-23 05:04:24,exp4_kmeans,8.20871951182683,kmeans,1994,2014,False,demin,True,,,"range(2, 10)"
+2018-07-23 05:12:24,exp4_kmeans,8.0115082303683,kmeans,1994,2014,False,sa_norm,True,,,"range(2, 10)"
+2018-07-23 05:18:38,exp4_som,6.18673719565074,som,1994,2014,False,,True,"range(2, 5)",,
+2018-07-23 05:24:48,exp4_som,6.1686194896698,som,1994,2014,False,unit_norm,True,"range(2, 5)",,
+2018-07-23 05:31:02,exp4_som,6.23332318862279,som,1994,2014,False,zero-one,True,"range(2, 5)",,
+2018-07-23 05:37:17,exp4_som,6.24549055496852,som,1994,2014,False,demin,True,"range(2, 5)",,
+2018-07-23 06:30:08,exp4_som+kmeans,52.8036535302798,som,1994,2014,False,,True,"range(4, 22, 3)",kmeans,"range(2, 10)"
+2018-07-23 07:23:09,exp4_som+kmeans,53.0119154373805,som,1994,2014,False,unit_norm,True,"range(4, 22, 3)",kmeans,"range(2, 10)"
+2018-07-23 08:16:08,exp4_som+kmeans,52.9829137802124,som,1994,2014,False,zero-one,True,"range(4, 22, 3)",kmeans,"range(2, 10)"
+2018-07-23 09:09:19,exp4_som+kmeans,53.1918590664864,som,1994,2014,False,demin,True,"range(4, 22, 3)",kmeans,"range(2, 10)"
+2018-07-25 22:18:21,exp5_kmeans,13.7109675566355,kmeans,1994,2014,False,,True,,,"range(2, 20)"
+2018-07-25 22:33:17,exp5_kmeans,14.9359876235326,kmeans,1994,2014,False,unit_norm,True,,,"range(2, 20)"
+2018-07-25 22:48:24,exp5_kmeans,15.1289819955826,kmeans,1994,2014,False,zero-one,True,,,"range(2, 20)"
+2018-07-25 23:03:33,exp5_kmeans,15.1434328198433,kmeans,1994,2014,False,demin,True,,,"range(2, 20)"
+2018-07-25 23:17:41,exp5_kmeans,14.1405087908109,kmeans,1994,2014,False,sa_norm,True,,,"range(2, 20)"
+2018-07-29 18:17:14,exp6_kmeans,14.22825746536255,kmeans,1994,2014,True,,True,,,"range(2, 20)"
+2018-07-29 18:32:42,exp6_kmeans,15.466064822673797,kmeans,1994,2014,True,unit_norm,True,,,"range(2, 20)"
+2018-07-29 18:48:13,exp6_kmeans,15.511943149566651,kmeans,1994,2014,True,zero-one,True,,,"range(2, 20)"
+2018-07-29 19:04:42,exp6_kmeans,16.48597426811854,kmeans,1994,2014,True,demin,True,,,"range(2, 20)"
+2018-07-29 19:18:58,exp6_kmeans,14.269928987820943,kmeans,1994,2014,True,sa_norm,True,,,"range(2, 20)"
+2018-08-02 17:43:13,exp5_kmeans,16.970764525731404,kmeans,1994,2014,False,,True,,,"range(2, 20)"
+2018-08-02 18:00:11,exp5_kmeans,16.975940950711568,kmeans,1994,2014,False,unit_norm,True,,,"range(2, 20)"
+2018-08-02 18:17:47,exp5_kmeans,17.596066335837047,kmeans,1994,2014,False,zero-one,True,,,"range(2, 20)"
+2018-08-02 18:34:37,exp5_kmeans,16.838035960992176,kmeans,1994,2014,False,demin,True,,,"range(2, 20)"
+2018-08-02 18:50:59,exp5_kmeans,16.362465584278105,kmeans,1994,2014,False,sa_norm,True,,,"range(2, 20)"
+2018-08-02 18:59:33,exp4_kmeans,8.038050119082133,kmeans,1994,2014,False,,True,,,"range(2, 10)"
+2018-08-02 19:07:50,exp4_kmeans,8.27795801560084,kmeans,1994,2014,False,unit_norm,True,,,"range(2, 10)"
+2018-08-02 19:16:18,exp4_kmeans,8.460414719581603,kmeans,1994,2014,False,zero-one,True,,,"range(2, 10)"
+2018-08-02 19:24:25,exp4_kmeans,8.123442788918814,kmeans,1994,2014,False,demin,True,,,"range(2, 10)"
+2018-08-02 19:32:17,exp4_kmeans,7.85981836716334,kmeans,1994,2014,False,sa_norm,True,,,"range(2, 10)"
+2018-08-15 16:19:39,exp7_kmeans,15.864652351538341,kmeans,1994,2014,False,,integral,,,"range(2, 20)"
+2018-08-15 16:37:32,exp7_kmeans,17.88328222433726,kmeans,1994,2014,False,unit_norm,integral,,,"range(2, 20)"
+2018-08-15 16:56:45,exp7_kmeans,19.21304848988851,kmeans,1994,2014,False,zero-one,integral,,,"range(2, 20)"
+2018-08-15 17:32:48,exp7_kmeans,36.05728930632274,kmeans,1994,2014,False,demin,integral,,,"range(2, 20)"
+2018-08-15 17:50:28,exp7_kmeans,17.660567943255106,kmeans,1994,2014,False,sa_norm,integral,,,"range(2, 20)"
+2018-08-15 18:07:24,exp8_kmeans,16.23348862727483,kmeans,1994,2014,True,,integral,,,"range(2, 20)"
+2018-08-15 18:23:33,exp8_kmeans,16.154797140757243,kmeans,1994,2014,True,unit_norm,integral,,,"range(2, 20)"
+2018-08-15 18:40:43,exp8_kmeans,17.15865993499756,kmeans,1994,2014,True,zero-one,integral,,,"range(2, 20)"
+2018-08-15 18:57:57,exp8_kmeans,17.244910915692646,kmeans,1994,2014,True,demin,integral,,,"range(2, 20)"
+2018-08-15 19:13:53,exp8_kmeans,15.91997096935908,kmeans,1994,2014,True,sa_norm,integral,,,"range(2, 20)"
