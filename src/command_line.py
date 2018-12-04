@@ -10,13 +10,14 @@ import argparse
 import os
 import pandas as pd
 import time
-from dlr_data_processing.loadprofiles import genX
 
-from evaluation.eval_clusters import getLabels, realCentroids, consumptionError, peakCoincidence, saveCorr
-from features.feature_extraction import genFProfiles
+from dlrprocessing.loadprofiles import genX
+from cluster.cluster import som, kmeans
+from cluster.results import getLabels, realCentroids 
+from cluster.qualeval import consumptionError, peakCoincidence, saveCorr
+from classify.features import genFProfiles, genArffFile
 
 from support import experiment_dir, writeLog, log_dir
-from src.algorithms.clusters import som, kmeans, saveLabels
 
 def clustersGen():
 	# Set up argument parser to run from terminal
@@ -68,8 +69,9 @@ def clustersGen():
 		toc = time.time()
 		
 		log_line = param[i]
-		logs = pd.DataFrame([[args.params, (toc-tic)/60] + list(log_line)], columns = ['experiment','runtime','algorithm', 
-		                     'start', 'end', 'drop_0', 'preprocessing', 'bin_X', 'range_n_dim', 'transform', 'range_n_clusters'])
+		logs = pd.DataFrame([[args.params, (toc-tic)/60] + list(log_line)], columns = [
+                'experiment','runtime','algorithm', 'start', 'end', 'drop_0', 
+                'preprocessing', 'bin_X', 'range_n_dim', 'transform','range_n_clusters'])
 		writeLog(logs, os.path.join(log_dir,'log_runClusters'))
 
 	return print('\n>>>Cluster generation complete<<<')
@@ -90,3 +92,22 @@ def clustersEval():
 	saveCorr(xl, args.experiment)
 	
 	return print("\n>>>Cluster evaluation complete.<<<")
+
+
+def prepClassify():
+    
+    # Set up argument parser to run from terminal
+    parser = argparse.ArgumentParser(description='Evaluate DLR timeseries clusters.')
+    parser.add_argument('experiment', type=str, help='Experiment_algorithm_preprocessing')
+    parser.add_argument('socios', type=str, help='Specification of socio_demographic features')
+    parser.add_argument('--keep_years', action='store_true', help='Specify if k_count should be by year.')
+    parser.add_argument('--filter_features', default=None, help='Filter features by values. Specify dict as string.')
+    parser.add_argument('--skip_cat', default=None, nargs='*', help='Specify numeric features')
+    parser.add_argument('--weighted', action='store_false', help='Specify if features should be weighted')
+    parser.add_argument('--n_best', type=int, default=1, help='n_best run of experiment')
+    args = parser.parse_args()
+    
+    F = genFProfiles(args.experiment, args.socios, args.n_best, args.keep_years, savefig=False)
+    genArffFile(args.experiment, args.socios, args.filter_features, args.skip_cat, args.weighted, args.n_best)
+    
+    return print("\n>>>Feature input prepared for classification.<<<")

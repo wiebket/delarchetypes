@@ -8,9 +8,8 @@ Created on Fri Aug 17 09:52:39 2018
 
 import pandas as pd
 import os
-from glob import glob
 
-from support import data_dir, results_dir, experiment_dir
+from .support import results_dir
 
 def joinResults(searchterm):
     mod = pd.DataFrame()

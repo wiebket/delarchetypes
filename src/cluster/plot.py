@@ -10,7 +10,6 @@ import pandas as pd
 import numpy as np
 import os
 
-import plotly.plotly as py
 import plotly.offline as po
 import plotly.graph_objs as go
 import plotly.tools as tools
@@ -19,14 +18,14 @@ import colorlover as cl
 import cufflinks as cf
 cf.go_offline()
 
-import matplotlib
 from matplotlib import cm
 import matplotlib.pyplot as plt
 from matplotlib import colors
 from matplotlib.colors import LinearSegmentedColormap
 
-import evaluation.eval_clusters as ec
-from support import data_dir, image_dir
+import qualeval as qe
+import results as res
+from support import data_dir
 
 clustering_evaluation_dir = os.path.join(data_dir, 'cluster_evaluation', 'plots', 'clustering_evaluation')
 cluster_analysis_dir = os.path.join(data_dir, 'cluster_evaluation', 'plots', 'cluster_analysis')
@@ -75,7 +74,7 @@ def plotPrettyColours(data, grouping):
 
 def plotClusterIndex(index, title, experiments, threshold=1200, groupby='algorithm', ylog=False):
     
-    cluster_results = ec.readResults()
+    cluster_results = res.readResults()
     cluster_results = cluster_results[cluster_results.total_sample>threshold]
     cluster_results = cluster_results.groupby(['experiment_name','som_dim','n_clust']).mean().reset_index() 
     cluster_results = cluster_results[cluster_results.experiment_name.isin(experiments)]
@@ -135,9 +134,9 @@ def plotClusterCentroids(centroids, groupby='_bin', n_best=1, title=''):
     experiment_name = centroids['experiment'].unique()[0]
     
     if len(centroids.elec_bin.unique()) == 1: 
-        centroids = ec.rebinCentroids(centroids)
+        centroids = res.rebinCentroids(centroids)
     if 'bin' in centroids.elec_bin.unique()[0]:
-        centroids = ec.renameBins(centroids, centroids)
+        centroids = res.renameBins(centroids, centroids)
     
     traces = centroids.iloc[:, 0:24].T
     n_clust = len(traces.columns)
@@ -480,7 +479,7 @@ def subplotClusterMetrics(metrics_dict, title, metric=None, make_area_plot=False
 def plotKDispersion(experiment, k, xlabel, centroids):
     
     colour_in = xlabel[['k','elec_bin']].drop_duplicates().reset_index(drop=True).set_index('k').sort_index()
-    rcolour_in = ec.renameBins(colour_in, centroids)
+    rcolour_in = res.renameBins(colour_in, centroids)
     colours = plotPrettyColours(rcolour_in, 'elec_bin')
     
     kxl = xlabel[xlabel['k'] == k]
@@ -570,7 +569,7 @@ def plotClusterConsistency(xlabel, y_axis='daily_demand', colour_var='stdev'):
     This function creates a scatter plot of mean household entropy vs mean profile standard deviation for all clusters. The marker size provides an indication of the number of households that use a particular cluster most frequently.
     """   
     
-    cv_out = ec.clusterReliability(xlabel)
+    cv_out = qe.clusterReliability(xlabel)
     hovertext = list()
     for k, c in cv_out.iterrows():
         hovertext.append('cluster {}<br />max count for {} households<br />{:.0f}A mean daily demand<br />mean standard deviation: {:.2f} '.format(k, int(c['hh_count']), c['daily_demand'], c['stdev']))
@@ -607,14 +606,14 @@ def plotHouseholdVolatility(xlabel, colorvar, centroids, legendgroups = None):
     colorvar displays an additional dimensino and can be one of Year, Municipality, k, stdev
     """
    
-    hh_out = ec.householdReliability(xlabel)
+    hh_out = qe.householdReliability(xlabel)
     trace_vars = hh_out[colorvar].unique()
     trace_vars.sort()   
 
     if colorvar == 'k':
         colour_in = xlabel[['k','elec_bin']].drop_duplicates().reset_index(
                 drop=True).set_index('k').sort_index()
-        rcolour_in = ec.renameBins(colour_in, centroids)
+        rcolour_in = qe.renameBins(colour_in, centroids)
         colour_gradient = plotPrettyColours(rcolour_in, 'elec_bin')
         c1 = dict(zip(colour_gradient.keys(), [colour_gradient[i].replace(')',', 0.8)') for i in colour_gradient.keys()]))
         colour_dict = dict(zip(c1.keys(), [c1[x].replace('rgb','rgba') for x in c1.keys()]))

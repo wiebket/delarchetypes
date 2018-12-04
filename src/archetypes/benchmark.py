@@ -17,7 +17,7 @@ import plotly.graph_objs as go
 import plotly as py
 offline.init_notebook_mode(connected=True) #set for plotly offline plotting
 
-from support import dpet_dir, image_dir
+from .support import dpet_dir, image_dir
 
 def bmDemandSummary(model_dir = dpet_dir):
     """
