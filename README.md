@@ -1,31 +1,4 @@
 # Clustering Pipeline for South African Residential Energy Consumer Archetypes
-
-```bash
-dlr_sarec_archetypes
-	|-- img
-	|-- log
-	|-- results
-	|-- src
-		|-- data
-		|-- evaluation
-			|-- benchmark.py
-			|-- eval_classification.py
-			|-- eval_cluster_plot.py
-			|-- eval_clusters.py
-		|-- params
-			|-- *.txt
-		|-- pipeline
-			|-- linux
-			|-- windows
-			|-- *.py (can probably delete and put in command_line.py)
-		|-- cluster_metrics.py
-		|-- clusters.py
-		|-- command_line.py
-		|-- support.py
-	|-- LICENSE
-	|-- README.md
-	|-- setup.py
-``` 
 	
 ## About this package
 This package is a pipeline constructs South African residential energy consumer archetypes from the South African Domestic Electric Load (DEL) database. It requires access to the [DELMH](https://doi.org/10.25828/56nh-fw77) and [DELMSKV](https://doi.org/10.25828/mf8s-hh79) datasets from the NRS Load Research study. Data access can be requested from Data First at the University of Cape Town.   
