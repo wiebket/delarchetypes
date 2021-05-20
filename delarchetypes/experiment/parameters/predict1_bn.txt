@@ -1,0 +1,18 @@
+{	
+	"V": ["k", "DD", "year", "season", "daytype", "Province", "monthly_income", 
+			"water_access", "roof_material", "wall_material", 
+			"cb_size","floor_area", "years_electrified", "geyser"],
+	"E": [["k", "DD"],
+		["k", "year"],
+		["k", "season"],
+		["k", "daytype"],
+		["k", "Province"],
+		["k", "monthly_income"],
+		["k", "water_access"],
+		["k", "roof_material"],
+		["k", "wall_material"],
+		["k", "cb_size"],
+		["k", "floor_area"],
+		["k", "years_electrified"],
+		["k", "geyser"]]
+}

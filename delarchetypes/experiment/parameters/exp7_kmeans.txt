@@ -1,0 +1,6 @@
+'algorithm', 'start', 'end', 'drop_0', 'preprocessing', 'bin_X', 'range_n_dim', 'transform', 'range_n_clusters'
+'kmeans', 1994, 2014, False, None, 'integral', None, None, range(2, 20, 1)
+'kmeans', 1994, 2014, False, 'unit_norm', 'integral', None, None, range(2, 20, 1)
+'kmeans', 1994, 2014, False, 'zero-one', 'integral', None, None, range(2, 20, 1)
+'kmeans', 1994, 2014, False, 'demin', 'integral', None, None, range(2, 20, 1)
+'kmeans', 1994, 2014, False, 'sa_norm', 'integral', None, None, range(2, 20, 1)

@@ -12,16 +12,17 @@ import numpy as np
 import feather
 import time
 from datetime import date
+import sys
 
 from sklearn.cluster import MiniBatchKMeans, KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import normalize
 import somoclu
 
-from dlrprocessing.loadprofiles import resampleProfiles
+from delprocess.loadprofiles import resampleProfiles
 
-from metrics import mean_index_adequacy, davies_bouldin_score
-from .support import cluster_dir, results_dir
+from .metrics import mean_index_adequacy, davies_bouldin_score
+from ..support import cluster_dir, results_dir
 
 def progress(n, stats):
     """Report progress information, return a string."""

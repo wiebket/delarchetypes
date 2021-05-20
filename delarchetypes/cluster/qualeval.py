@@ -13,9 +13,9 @@ from math import log
 import os
 import peakutils
 
-import dlrprocessing.surveys as surveys
+import delprocess.surveys as surveys
 
-from .support import data_dir
+from ..support import data_dir
 
 def consumptionError(xlabel, centroids, compare='total'):
     """

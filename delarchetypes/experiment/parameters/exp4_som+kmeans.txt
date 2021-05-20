@@ -1,0 +1,5 @@
+'algorithm', 'start', 'end', 'drop_0', 'preprocessing', 'bin_X', 'range_n_dim', 'transform', 'range_n_clusters'
+'som', 1994, 2014, False, None, 'amd', range(4, 22, 3), 'kmeans', range(2, 10, 1)
+'som', 1994, 2014, False, 'unit_norm', 'amd', range(4, 22, 3), 'kmeans', range(2, 10, 1)
+'som', 1994, 2014, False, 'zero-one', 'amd', range(4, 22, 3), 'kmeans', range(2, 10, 1)
+'som', 1994, 2014, False, 'demin', 'amd', range(4, 22, 3), 'kmeans', range(2, 10, 1)
