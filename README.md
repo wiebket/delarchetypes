@@ -7,7 +7,7 @@ This is the code repository for the following published research:
 
 1. Toussaint, W. and Moodley, D. 2020. “Clustering Residential Electricity Consumption Data to Create Archetypes that Capture Household Behaviour in South Africa”. South African Computer Journal 32(2), 1–34. [https://doi.org/10.18489/sacj.v32i2.845]
 2. Toussaint, W. and Moodley, D. 2020. “Identifying optimal clustering structures for residential energy consumption patterns using competency questions.” In Conference of the South African Institute of Computer Scientists and Information Technologists 2020 (SAICSIT ‘20). Association for Computing Machinery, New York, NY, USA, 66–73. [https://doi.org/10.1145/3410886.3410887]
-3. Toussaint, W. and Moodley, D. 2019. “Comparison of Clustering Techniques for Residential Load Profiles in South Africa.” In Proceedings of the South African Forum for AI Research. URL [CEUR-WS.org/Vol-1//Vol-2540/FAIR2019_paper_55.pdf]
+3. Toussaint, W. and Moodley, D. 2019. “Comparison of Clustering Techniques for Residential Load Profiles in South Africa.” In Proceedings of the South African Forum for AI Research. URL [http://ceur-ws.org/Vol-2540/FAIR2019_paper_55.pdf]
 4. Toussaint, Wiebke. Evaluation of Clustering Techniques for Generating Household Energy Consumption Patterns in a Developing Country Context. 2019. URL [http://hdl.handle.net/11427/30905] **[Masters thesis with complete overview of experiments]**
 
 ### Data & Pre-Processing
