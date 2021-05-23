@@ -10,10 +10,10 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
-from dlrprocessing.surveys import genS
-from .cluster.results import getLabels, getExpDetails
+from delprocess.surveys import genS
+from ..cluster.results import getLabels, getExpDetails
 
-from .support import image_dir, data_dir
+from ..support import image_dir, data_dir
 
 def plotF(F, columns, save_name=None):
     """

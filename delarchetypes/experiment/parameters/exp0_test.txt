@@ -1,0 +1,2 @@
+'algorithm', 'start', 'end', 'preprocessing', 'range_n_dim', 'transform', 'range_n_clusters'
+'som', 1994, 1995, 'normalize', range(30, 31, 1), 'kmeans', range(5, 13, 3)
