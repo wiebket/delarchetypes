@@ -12,13 +12,14 @@ import pandas as pd
 import time
 import sys
 
+from delprocess.support import writeLog
 from delprocess.loadprofiles import genX
 from .cluster.cluster import som, kmeans
 from .cluster.results import getLabels, realCentroids 
 from .cluster.qualeval import consumptionError, peakCoincidence, saveCorr
 from .classify.features import genFProfiles, genArffFile
 
-from .support import experiment_dir, writeLog, log_dir
+from .support import experiment_dir 
 
 def clustersGen():
 	# Set up argument parser to run from terminal

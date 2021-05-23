@@ -8,34 +8,18 @@ The data descriptor for the dataset is available [online](https://doi.org/10.253
 Two other packages have been released alongside this package for [retrieving](https://github.com/wiebket/delretrieve) and [processing](https://github.com/wiebket/delprocess) data from the DEL database. 
 
 ## Setup instructions
-Ensure that python 3 is installed on your computer. A simple way of getting it is to install it with [Anaconda](https://docs.anaconda.com/anaconda/install/). Once python has been installed, the delprocess package can be installed.
-	
+Ensure that python 3 is installed on your computer. A simple way of getting it is to install it with [Anaconda](https://docs.anaconda.com/anaconda/install/). Once python has been installed, the delarchetype package can be installed.
+
+0. Requires: [`delprocess`](https://github.com/wiebket/delprocess)	
 1. Clone this repository from github.
 2. Navigate to the root directory (`delarchetype`) and run `python setup.py install` (run from Anaconda Prompt or other bash with access to python if running on Windows).
-3. You will be asked to confirm the data directories that contain your data. Paste the full path name when prompted. You can change this setting at a later stage by modifying the file `your_home_dir/del_data/usr/store_path.txt` .
+3. During the install process a new directory will be created at `your_home_dir/del_data/` if it does not yet exist. This is your default data directory. You can change this setting at a later stage by modifying the file `your_home_dir/del_data/usr/store_path.txt`.
+4. This package only works if the data structure is _exactly_ like the directory hierarchy in _del_data_ if created with the package `delretrieve`. 
 
-This package only works if the data structure is _exactly_ like the directory hierarchy in _del_data_ if created with the package `delretrieve`:
-
-```bash
-your_home_dir/del_data
-    |-- observations
-        |-- profiles
-            |-- raw
-                |-- unit
-                    |-- GroupYear
-        |-- tables
-            |-- ...
-    |-- survey_features
-    |-- usr
-        |-- specs (automatically copied from delprocess/data/specs during setup)
-        |-- store_path.txt (generated during setup)
-```
 
 ## Overview of Process
 
-1. Generate input data from DLR load profiles (24 hour profiles for households surveyed in year range)
-2. 
-3. 
+
 
 ### Command-line Interface
 
@@ -76,5 +60,5 @@ This project implements a further qualitative evaluation process. Functions for 
 arff files can be generated to pass as input into [WEKA's]() classification algorithms.
 
 ## Publications
-The methods used in this work have been published in:
-[]()
+1. Toussaint, W. and Moodley, D. 2020. “Clustering Residential Electricity Consumption Data to Create Archetypes that Capture Household Behaviour in South Africa”. South African Computer Journal 32(2), 1–34. [https://doi.org/10.18489/sacj.v32i2.845]
+2. Toussaint, W. and Moodley, D. 2020. “Identifying optimal clustering structures for residential energy consumption patterns using competency questions.” In Conference of the South African Institute of Computer Scientists and Information Technologists 2020 (SAICSIT ‘20). Association for Computing Machinery, New York, NY, USA, 66–73. [https://doi.org/10.1145/3410886.3410887]

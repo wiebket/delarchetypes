@@ -22,15 +22,15 @@ setup(
       author='Wiebke Toussaint',
       author_email='wiebke.toussaint@gmail.com',
       license='CC-BY-NC',
-      install_requires=['pandas','numpy','pyodbc','feather-format','plotly', 
-                        'pathlib','pyshp','shapely','somoclu'],
+      install_requires=['pandas','numpy','feather-format','plotly','colorlover','scikit-learn',
+                        'peakutils','pathlib','somoclu'],
       include_package_data=True,
       packages=find_packages(),
-      py_modules = ['delarchetypes.command_line', 'delarchetypes.support', 'delarchetypes.cluster.cluster'],
-      data_files=[(os.path.join(usr_dir,'specs'), [os.path.join('delarchetypes','experiment','parameters', f) for f in [files for root, dirs, files in os.walk(os.path.join('delarchetypes','experiment','parameters'))][0]])],
+      py_modules = ['delarchetypes.command_line','delarchetypes.cluster.cluster','delarchetypes.cluster.results',
+      'delarchetypes.cluster.qualeval','delarchetypes.classify.features'],
       entry_points = {
-			'console_scripts': ['delarchetypes_clusters=delarchetypes.command_line:clustersGen',
-                       'delarchetypes_clustersEval=delarchetypes.command_line:clustersEval',
-                       'delarchetypes_classify=delarchetypes.command_line:prepClassify'],
+			'console_scripts': ['delarch_cluster=delarchetypes.command_line:clustersGen',
+                       'delarch_cluster_eval=delarchetypes.command_line:clustersEval',
+                       'delarch_prep_classify=delarchetypes.command_line:prepClassify'],
                        }
       )
