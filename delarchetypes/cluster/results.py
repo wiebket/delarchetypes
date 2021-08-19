@@ -10,11 +10,12 @@ import pandas as pd
 import feather
 import os
 from glob import glob
+import sys
 
-import dlrprocessing.loadprofiles as lp
+import delprocess.loadprofiles as lp
 
-from cluster import xBins
-from .support import data_dir, experiment_dir
+from .cluster import xBins
+from ..support import data_dir, experiment_dir
 
 
 def getExperiments(exp_root):
